@@ -1,0 +1,22 @@
+{
+  "name": "string-analysis-api",
+  "version": "1.0.0",
+  "description": "RESTful API service that analyzes strings and stores their computed properties",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "api",
+    "string-analysis",
+    "rest",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
